@@ -1,8 +1,57 @@
-# React + Vite
+# ✅ Todo App - React JS with Context API & Local Storage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Todo App** is a simple and efficient project to manage your daily tasks. It leverages **React JS**, **Context API** for state management, and **Local Storage** to persist tasks across sessions.
 
-Currently, two official plugins are available:
+## ✨ Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📝 **Add, Edit, and Delete Todos**: Easily manage your tasks with intuitive features.
+- 🎯 **Persistent Data**: Your todos are saved in local storage, so they’re available even after refreshing the page.
+- ⚛️ **Context API**: Efficient state management with React's Context API for a smooth user experience.
+- 🎨 **Responsive UI**: Styled with **Tailwind CSS**, providing a clean and modern design that works well on all devices.
+
+## 🛠️ Technologies Used
+
+- ⚛️ **React JS**: JavaScript library for building dynamic user interfaces.
+- 🌐 **Context API**: React's built-in state management system.
+- 💾 **Local Storage**: Browser storage to save todos.
+- 🎨 **Tailwind CSS**: A utility-first CSS framework for a beautiful design.
+
+## 🚀 Getting Started
+
+To run this project locally, follow these steps:
+
+### 📋 Prerequisites
+
+Ensure you have **Node.js** and **npm** installed on your machine.
+
+### 🔧 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/fahadshahbaz/Todo-using-context-api-local-storage.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd Todo-using-context-api-local-storage
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+### ▶️ Running the Project
+
+Start the project using this command:
+   ```bash
+   npm run dev
+   ```
+
+## 🌍 Demo
+
+A live demo will be available soon.
+
+---
+
+### 💻 Happy Coding! 🚀
+
+If you find this project helpful, consider giving it a star on GitHub ⭐!
