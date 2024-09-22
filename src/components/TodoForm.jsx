@@ -13,7 +13,7 @@ function TodoForm() {
   };
 
   return (
-    <form onSubmit={add} className="flex mb-4 ">
+    <form onSubmit={add} className="flex mb-4">
       <input
         type="text"
         placeholder="Write Todo..."

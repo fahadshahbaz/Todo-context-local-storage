@@ -44,13 +44,12 @@ function App() {
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos])
-  
 
   return (
     <TodoProvider
       value={{ todos, addTodo, updateTodo, deleteTodo, toggleComplete }}
     >
-      <div className="bg-gray-300 min-h-screen py-8">
+      <div className="bg-gray-300 min-h-screen py-8 px-5">
         <div className="w-full max-w-2xl mx-auto  shadow-md rounded-lg p-6 text-white">
           <h1 className="text-3xl font-bold text-center mb-8 mt-2 text-slate-700">
             TODO LIST
