@@ -28,11 +28,11 @@ Ensure you have **Node.js** and **npm** installed on your machine.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/fahadshahbaz/Todo-using-context-api-local-storage.git
+   git clone https://github.com/fahadshahbaz/Todo-context-local-storage.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd Todo-using-context-api-local-storage
+   cd Todo-context-local-storage
    ```
 3. **Install dependencies:**
    ```bash
