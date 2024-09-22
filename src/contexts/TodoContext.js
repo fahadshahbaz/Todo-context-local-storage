@@ -1,6 +1,6 @@
 import { createContext, useContext } from "react";
 
-const TodoContext = createContext({
+export const TodoContext = createContext({
     // First it will take default values always
     // This todo is serving as property, which is array and has objects
     todos: [
@@ -22,4 +22,4 @@ export const useTodo = () => {
 };
 
 // We export provider from here to avoid wrapping main.jsx with provider and passing TodoContext as prop
-export const Todoprovider = TodoContext.Provider;
+export const TodoProvider = TodoContext.Provider;
