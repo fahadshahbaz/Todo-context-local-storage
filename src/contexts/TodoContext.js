@@ -1,23 +1,23 @@
 import { createContext, useContext } from "react";
 
 export const TodoContext = createContext({
-    // First it will take default values always
-    // This todo is serving as property, which is array and has objects
-    todos: [
-        {
-            id: 1,
-            todo: "Todo msg",
-            completed: false
-        }
-    ],
-    addTodo: (todo)=>{},
-    updateTodo: (id, todo)=>{},
-    deleteTodo: (id)=>{},
-    toggleComplete: (id)=>{}
+  // First it will take default values always
+  // This todo is serving as property, which is array and has objects
+  todos: [
+    {
+      id: 1,
+      todo: "Todo msg",
+      completed: false,
+    },
+  ],
+  addTodo: (todo) => {},
+  updateTodo: (id, todo) => {},
+  deleteTodo: (id) => {},
+  toggleComplete: (id) => {},
 });
 
 export const useTodo = () => {
- // It will return object of TodoContext
+  // It will return object of TodoContext
   return useContext(TodoContext);
 };
 
