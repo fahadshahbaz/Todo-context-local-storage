@@ -1,6 +1,6 @@
-# ✅ Todo App - React JS with Context API & Local Storage
+# ✅ Todo App - React + TypeScript with Context API & Local Storage
 
-**Todo App** is a simple and efficient project to manage your daily tasks. It leverages **React JS**, **Context API** for state management, and **Local Storage** to persist tasks across sessions.
+**Todo App** is a simple and efficient project to manage your daily tasks. It leverages **React**, **TypeScript**, **Context API** for state management, and **Local Storage** to persist tasks across sessions.
 
 ## ✨ Key Features
 
@@ -11,10 +11,12 @@
 
 ## 🛠️ Technologies Used
 
-- ⚛️ **React JS**: JavaScript library for building dynamic user interfaces.
+- ⚛️ **React**: JavaScript library for building dynamic user interfaces.
+- 📘 **TypeScript**: Adds static typing for better code quality and developer experience.
 - 🌐 **Context API**: React's built-in state management system.
 - 💾 **Local Storage**: Browser storage to save todos.
 - 🎨 **Tailwind CSS**: A utility-first CSS framework for a beautiful design.
+- ⚡ **Vite**: Fast build tool and development server.
 
 ## 🚀 Getting Started
 
@@ -42,9 +44,10 @@ Ensure you have **Node.js** and **npm** installed on your machine.
 ### ▶️ Running the Project
 
 Start the project using this command:
-   ```bash
-   npm run dev
-   ```
+
+```bash
+npm run dev
+```
 
 ## 🌍 Demo
 

@@ -1,0 +1,17 @@
+# dependencies
+node_modules
+
+# production
+dist
+dist-ssr
+
+# misc
+*.log
+.DS_Store
+
+# environment files
+*.local
+
+# build files
+build
+coverage

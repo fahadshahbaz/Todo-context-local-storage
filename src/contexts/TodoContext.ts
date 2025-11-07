@@ -1,6 +1,7 @@
 import { createContext, useContext } from "react";
+import { TodoContextType, Todo } from "../types/todo";
 
-export const TodoContext = createContext({
+export const TodoContext = createContext<TodoContextType>({
   // First it will take default values always
   // This todo is serving as property, which is array and has objects
   todos: [
@@ -10,13 +11,13 @@ export const TodoContext = createContext({
       completed: false,
     },
   ],
-  addTodo: (todo) => {},
-  updateTodo: (id, todo) => {},
-  deleteTodo: (id) => {},
-  toggleComplete: (id) => {},
+  addTodo: () => {},
+  updateTodo: () => {},
+  deleteTodo: () => {},
+  toggleComplete: () => {},
 });
 
-export const useTodo = () => {
+export const useTodo = (): TodoContextType => {
   // It will return object of TodoContext
   return useContext(TodoContext);
 };
